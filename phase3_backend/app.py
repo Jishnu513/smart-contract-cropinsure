@@ -43,35 +43,51 @@ print("="*70)
 
 # ==================== CONFIGURATION ====================
 
-# Blockchain configuration - FIXED: Changed to port 8545
-GANACHE_URL = "http://127.0.0.1:8545"
-w3 = Web3(Web3.HTTPProvider(GANACHE_URL))
+# Blockchain configuration - supports Ganache (local) or Sepolia (deployed)
+BLOCKCHAIN_URL = os.environ.get("BLOCKCHAIN_RPC_URL", "http://127.0.0.1:8545")
+BLOCKCHAIN_ENABLED = True
+try:
+    w3 = Web3(Web3.HTTPProvider(BLOCKCHAIN_URL))
+except Exception:
+    BLOCKCHAIN_ENABLED = False
+    w3 = None
 
 # ==================== API KEYS ====================
 # OpenWeatherMap API Key - loaded from environment variable
 OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY", "YOUR_API_KEY_HERE")
+
+# Private key for Sepolia transactions (not needed for Ganache)
+PRIVATE_KEY = os.environ.get("PRIVATE_KEY", None)
 
 # NASA POWER - No API key needed! ✅
 print("🌦️ OpenWeatherMap API: READY")
 print("🛰️ NASA POWER API: READY (No key needed)")
 
 # Load contract ABI and address
-with open('deployment_info.json', 'r') as f:
-    deployment_info = json.load(f)
-    CONTRACT_ADDRESS = deployment_info['contract_address']
-    CONTRACT_ABI = deployment_info['contract_abi']
+contract = None
+CONTRACT_ADDRESS = None
+CONTRACT_ABI = None
+try:
+    with open('deployment_info.json', 'r') as f:
+        deployment_info = json.load(f)
+        CONTRACT_ADDRESS = deployment_info['contract_address']
+        CONTRACT_ABI = deployment_info['contract_abi']
+    # Create contract instance
+    if w3:
+        contract = w3.eth.contract(address=CONTRACT_ADDRESS, abi=CONTRACT_ABI)
+except Exception as e:
+    print(f"⚠️  Could not load contract: {e}")
+    BLOCKCHAIN_ENABLED = False
 
-# Create contract instance
-contract = w3.eth.contract(address=CONTRACT_ADDRESS, abi=CONTRACT_ABI)
-
-# Check Ganache connection (non-fatal)
-if w3.is_connected():
-    print(f"✅ Connected to Ganache blockchain")
-    print(f"📍 Contract Address: {CONTRACT_ADDRESS}")
+# Check blockchain connection (non-fatal)
+if w3 and w3.is_connected():
+    print(f"✅ Connected to blockchain at {BLOCKCHAIN_URL}")
+    if CONTRACT_ADDRESS:
+        print(f"📍 Contract Address: {CONTRACT_ADDRESS}")
 else:
-    print(f"⚠️  Ganache NOT running at {GANACHE_URL}")
-    print(f"   Start Ganache UI or run: ganache --port 8545")
-    print(f"   Backend will start but blockchain calls will fail until Ganache is up.")
+    print(f"⚠️  Blockchain NOT connected at {BLOCKCHAIN_URL}")
+    print(f"   Backend will start but blockchain calls will be simulated.")
+    BLOCKCHAIN_ENABLED = False
 
 # ==================== GANACHE ACCOUNT HELPER ====================
 # Ganache (both UI and CLI) only allows transactions FROM its own
@@ -120,16 +136,24 @@ def _restore_wallet_mappings(db):
 
 print("\n📊 Loading ML Models...")
 
-# ── Resolve model paths relative to this file's location ──────────────
+# ── Resolve model paths: check models/ subfolder first, then root ──────
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))          # phase3_backend/
 ROOT_DIR   = os.path.dirname(BASE_DIR)                           # pproject/
+MODELS_DIR = os.path.join(BASE_DIR, 'models')                    # phase3_backend/models/
 
-WEATHER_RF_PATH  = os.path.join(ROOT_DIR, 'weather_random_forest_model.pkl')
-WEATHER_XGB_PATH = os.path.join(ROOT_DIR, 'weather_xgboost_model.pkl')
-WEATHER_ENC_PATH = os.path.join(ROOT_DIR, 'weather_label_encoder.pkl')
-WEATHER_SCL_PATH = os.path.join(ROOT_DIR, 'weather_scaler.pkl')
-NDVI_RF_PATH     = os.path.join(ROOT_DIR, 'ndvi_rf_classifier.pkl')
-NDVI_IF_PATH     = os.path.join(ROOT_DIR, 'ndvi_isolation_forest_model.pkl')
+def _find_model(filename):
+    """Look for model in models/ subfolder first, then root directory."""
+    local = os.path.join(MODELS_DIR, filename)
+    if os.path.exists(local):
+        return local
+    return os.path.join(ROOT_DIR, filename)
+
+WEATHER_RF_PATH  = _find_model('weather_random_forest_model.pkl')
+WEATHER_XGB_PATH = _find_model('weather_xgboost_model.pkl')
+WEATHER_ENC_PATH = _find_model('weather_label_encoder.pkl')
+WEATHER_SCL_PATH = _find_model('weather_scaler.pkl')
+NDVI_RF_PATH     = _find_model('ndvi_rf_classifier.pkl')
+NDVI_IF_PATH     = _find_model('ndvi_isolation_forest_model.pkl')
 
 weather_model  = None
 weather_scaler = None

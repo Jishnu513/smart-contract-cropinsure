@@ -15,12 +15,12 @@ files.zip
 # EXTRACTED FOLDER
 files_extracted/
 
-# POWERPOINT & WORD DOCS (not needed for deployment)
+# POWERPOINT & WORD DOCS
 *.pptx
 *.docx
 ~$*.pptx
 
-# DIAGRAM GENERATOR SCRIPTS (utility only)
+# DIAGRAM GENERATOR SCRIPTS
 gen_flow_diagram.py
 gen_flow_v2.py
 gen_iforest.py
@@ -30,13 +30,13 @@ generate_arch_v4.py
 fix_paper_images.py
 check_paper.py
 
-# ARCHITECTURE IMAGES (not needed for deployment)
+# ARCHITECTURE IMAGES
 system_architecture.png
 system_architecture_final.png
 system_architecture_layered_1772254391436.png
 system_arch_reference_style.png
 
-# PERFORMANCE IMAGES (not needed for deployment)
+# PERFORMANCE IMAGES
 NB2_Confusion_Matrix.png
 NB2_Feature_Importance.png
 NB2_LSTM_Training_History.png
@@ -51,18 +51,38 @@ __pycache__/
 *.pyc
 *.pyo
 
-# NODE MODULES (too large, auto-installed)
+# NODE MODULES
 node_modules/
 
 # REACT BUILD OUTPUT
 crop_insurance_frontend/crop_insurance_frontend/build/
 
-# ENVIRONMENT FILES (security - never upload keys)
+# ENVIRONMENT FILES (security)
 .env
 *.env
 
 # JUPYTER NOTEBOOK CHECKPOINTS
 .ipynb_checkpoints/
 
-# PHASE 1 DATASETS (training data, not needed for deployment)
+# PHASE 1 DATASETS
 phase1_datasets_ultimate/
+
+# UNWANTED JSON FILES (notebook outputs / local data)
+model_performance_report.json
+nb1_weather_performance.json
+nb2_ndvi_performance.json
+nb3_verification_performance.json
+nb4_gps_stats.json
+phase3_backend/farmers_db.json
+phase3_backend/wallet_mapping.json
+contract_compiled.json
+
+# LOCAL RUN FILES
+phase3_backend/RUN
+phase3_backend/run.txt
+
+# UNWANTED MARKDOWN DOCS
+crop_insurance_frontend/crop_insurance_frontend/QUICK_FIX.md
+crop_insurance_frontend/crop_insurance_frontend/CHANGES.md
+crop_insurance_frontend/crop_insurance_frontend/README_COMPLETE.md
+crop_insurance_frontend/crop_insurance_frontend/SETUP_GUIDE.md
