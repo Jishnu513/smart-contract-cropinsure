@@ -1,0 +1,21 @@
+Policy,Farmer,State,Crop,Lat,Lon,Area_ha,Sum_Insured,Premium
+POL-2026-0001,Rajesh Kumar Singh,Punjab,Wheat,30.9125,75.8621,5.2,75000,1125
+POL-2026-0002,Sukhwinder Gill,Punjab,Wheat,31.634,74.8723,7.0,90000,1350
+POL-2026-0003,Gurpreet Sidhu,Punjab,Wheat,30.3315,76.3973,4.5,68000,1020
+POL-2026-0004,Amit Singh Dhillon,Haryana,Rice,29.0588,76.9858,6.5,85000,1275
+POL-2026-0005,Deepak Yadav,Haryana,Wheat,28.8955,76.6066,4.0,62000,930
+POL-2026-0006,Priya Sharma,Uttar Pradesh,Wheat,26.8467,80.9462,4.0,65000,975
+POL-2026-0007,Ramesh Verma,Uttar Pradesh,Rice,25.3176,82.9739,3.5,55000,825
+POL-2026-0008,Mohan Lal Yadav,Rajasthan,Maize,26.2389,73.0243,6.0,70000,1050
+POL-2026-0009,Arjun Deshmukh,Maharashtra,Cotton,19.8762,75.3433,7.5,120000,1800
+POL-2026-0010,Vikram Pawar,Maharashtra,Cotton,21.1458,79.0882,8.0,110000,1650
+POL-2026-0011,Sunita Kulkarni,Maharashtra,Sugarcane,18.5204,73.8567,5.0,95000,1900
+POL-2026-0012,Selvi Rajan,Tamil Nadu,Rice,11.0168,76.9558,2.8,55000,825
+POL-2026-0013,Murugan Pillai,Tamil Nadu,Rice,10.787,79.1378,4.2,72000,1080
+POL-2026-0014,Kavitha Krishnamurthy,Tamil Nadu,Sugarcane,11.6643,78.146,3.8,88000,1760
+POL-2026-0015,Ravi Gowda,Karnataka,Cotton,13.0072,76.0962,5.5,95000,1425
+POL-2026-0016,Lakshmi Naik,Karnataka,Rice,15.3647,75.124,3.2,52000,780
+POL-2026-0017,Ravi Chatterjee,West Bengal,Rice,23.2324,87.855,3.0,50000,750
+POL-2026-0018,Anjali Mondal,West Bengal,Rice,24.1759,88.2647,2.5,42000,630
+POL-2026-0019,Bharat Patel,Gujarat,Cotton,21.1702,72.8311,6.8,105000,1575
+POL-2026-0020,Nirmala Desai,Gujarat,Groundnut,22.3039,70.8022,5.5,78000,1170

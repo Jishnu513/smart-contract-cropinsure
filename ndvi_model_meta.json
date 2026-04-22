@@ -1,0 +1,20 @@
+{
+  "n_features": 10,
+  "feature_names": [
+    "mean_ndvi",
+    "std_ndvi",
+    "min_ndvi",
+    "max_ndvi",
+    "range_ndvi",
+    "trend",
+    "stress_ratio",
+    "peak_ndvi",
+    "late_mean",
+    "early_late_drop"
+  ],
+  "input_type": "time_series_120_steps",
+  "classes": {
+    "0": "Healthy",
+    "1": "Stressed"
+  }
+}

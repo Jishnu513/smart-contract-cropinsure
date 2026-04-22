@@ -1,0 +1,835 @@
+{
+    "network": "GANACHE",
+    "contract_address": "0x0eC351c271f6Effe58d16389b6005BD83b609Ecb",
+    "deployer_address": "0x0C36D5270A62e572233c120D289c28733077Bd1B",
+    "transaction_hash": "670b98664651301e4fbd7318c94c95483ef002a340f63e1108b1cc060a1179eb",
+    "block_number": 97,
+    "gas_used": 3422458,
+    "deployment_date": "2026-03-31 00:34:02",
+    "contract_abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "ClaimSubmitted",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bool",
+                    "name": "weatherTrigger",
+                    "type": "bool"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bool",
+                    "name": "ndviTrigger",
+                    "type": "bool"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bool",
+                    "name": "isApproved",
+                    "type": "bool"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "ClaimVerified",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "FarmerRegistered",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "PayoutExecuted",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "premiumAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "coverageAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "PolicyCreated",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "PremiumPaid",
+            "type": "event"
+        },
+        {
+            "stateMutability": "payable",
+            "type": "fallback"
+        },
+        {
+            "inputs": [],
+            "name": "claimCounter",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "claims",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "claimId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "weatherTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "ndviTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isApproved",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isPaid",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "payoutAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "claimDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "payoutDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "verificationHash",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_cropType",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_premiumAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_coverageAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_policyDurationDays",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createPolicy",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_policyId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "deactivatePolicy",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "farmerPolicies",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "name": "farmers",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "walletAddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "farmLocation",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "farmArea",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "cropType",
+                    "type": "string"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isRegistered",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "registrationDate",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "fundContract",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_claimId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getClaim",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "weatherTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "ndviTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isApproved",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isPaid",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "payoutAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "claimDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "verificationHash",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getContractBalance",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "_farmerAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "getFarmer",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "farmLocation",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "farmArea",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "cropType",
+                    "type": "string"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isRegistered",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "registrationDate",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "_farmerAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "getFarmerPolicies",
+            "outputs": [
+                {
+                    "internalType": "uint256[]",
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_policyId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getPolicy",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "string",
+                    "name": "cropType",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "premiumAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "coverageAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "policyStartDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "policyEndDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isPremiumPaid",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isActive",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_policyId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getPolicyClaims",
+            "outputs": [
+                {
+                    "internalType": "uint256[]",
+                    "name": "",
+                    "type": "uint256[]"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "owner",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_policyId",
+                    "type": "uint256"
+                }
+            ],
+            "name": "payPremium",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "policies",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "policyId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "farmerAddress",
+                    "type": "address"
+                },
+                {
+                    "internalType": "string",
+                    "name": "cropType",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "premiumAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "coverageAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "policyStartDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "policyEndDate",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isPremiumPaid",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "isActive",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "creationDate",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "policyClaims",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "policyCounter",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_farmLocation",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_farmArea",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_cropType",
+                    "type": "string"
+                }
+            ],
+            "name": "registerFarmer",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_policyId",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "_weatherTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "_ndviTrigger",
+                    "type": "bool"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_verificationHash",
+                    "type": "string"
+                }
+            ],
+            "name": "submitClaim",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "withdrawFunds",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "stateMutability": "payable",
+            "type": "receive"
+        }
+    ]
+}

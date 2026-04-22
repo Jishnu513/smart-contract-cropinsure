@@ -1,0 +1,297 @@
+.view-details {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.details-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.details-container h1 {
+  color: #2E7D32;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.detail-card {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.detail-header h2 {
+  color: #2E7D32;
+  font-size: 1.8rem;
+}
+
+.status-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.status-badge.active {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.inactive {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.status-badge.approved {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.rejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.detail-item {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #4CAF50;
+}
+
+.detail-item.full-width {
+  grid-column: 1 / -1;
+}
+
+.detail-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.detail-value {
+  color: #666;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+.contract-address {
+  font-family: monospace;
+  font-size: 0.85rem;
+}
+
+.badge-success {
+  background: #d4edda;
+  color: #155724;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.badge-warning {
+  background: #fff3cd;
+  color: #856404;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Verification Section */
+.verification-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #ddd;
+}
+
+.verification-section h3 {
+  color: #2E7D32;
+  margin-bottom: 25px;
+  font-size: 1.4rem;
+}
+
+.verification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.verification-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.verification-card h4 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.verification-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.verification-result.pass {
+  background: #d4edda;
+  color: #155724;
+}
+
+.verification-result.fail {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.verification-result .result-icon {
+  font-size: 2.5rem;
+}
+
+.verification-result span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.verification-desc {
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Payout Section */
+.payout-section {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.payout-section.success {
+  background: #d4edda;
+  border: 2px solid #28a745;
+}
+
+.payout-section h3 {
+  color: #155724;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.payout-amount-large {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #28a745;
+  margin: 20px 0;
+}
+
+.payout-section p {
+  color: #155724;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.transaction-info {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Rejection Section */
+.rejection-section {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.rejection-section.warning {
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+}
+
+.rejection-section h3 {
+  color: #856404;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.rejection-section p {
+  color: #856404;
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.rejection-section ul {
+  color: #856404;
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+.rejection-section li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .details-container {
+    padding: 25px;
+  }
+  
+  .details-container h1 {
+    font-size: 1.5rem;
+  }
+  
+  .detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .verification-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .payout-amount-large {
+    font-size: 2.5rem;
+  }
+}

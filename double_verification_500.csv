@@ -1,0 +1,501 @@
+claim_id,farmer,weather_trigger,weather_score,ndvi_trigger,ndvi_value,approved,fraud_suspected,proc_sec,scenario
+Ge000,F0,True,0.5856,True,0.1081,True,False,2.6,Genuine Drought
+Ge001,F1,True,0.5605,True,0.2075,True,False,1.95,Genuine Drought
+Ge002,F2,True,0.6068,True,0.1127,True,False,2.99,Genuine Drought
+Ge003,F3,True,0.572,True,0.1324,True,False,3.04,Genuine Drought
+Ge004,F4,True,0.5103,True,0.1621,True,False,2.68,Genuine Drought
+Ge005,F5,True,0.4967,False,0.0884,False,True,2.47,Genuine Drought
+Ge006,F6,True,0.5552,True,0.2538,True,False,2.77,Genuine Drought
+Ge007,F7,True,0.5192,True,0.1592,True,False,2.3,Genuine Drought
+Ge008,F8,True,0.636,True,0.1266,True,False,2.09,Genuine Drought
+Ge009,F9,True,0.5162,False,0.1133,False,True,3.2,Genuine Drought
+Ge010,F10,True,0.508,True,0.1876,True,False,2.21,Genuine Drought
+Ge011,F11,False,0.4505,True,0.1386,False,False,2.97,Genuine Drought
+Ge012,F12,True,0.5282,True,0.1306,True,False,2.85,Genuine Drought
+Ge013,F13,True,0.4846,True,0.2576,True,False,2.87,Genuine Drought
+Ge014,F14,True,0.5291,True,0.2072,True,False,1.92,Genuine Drought
+Ge015,F15,True,0.5368,True,0.1009,True,False,2.37,Genuine Drought
+Ge016,F16,True,0.4845,True,0.136,True,False,2.29,Genuine Drought
+Ge017,F17,True,0.6004,True,0.165,True,False,3.13,Genuine Drought
+Ge018,F18,True,0.6029,True,0.2188,True,False,2.53,Genuine Drought
+Ge019,F19,True,0.5221,True,0.0994,True,False,2.5,Genuine Drought
+Ge020,F20,True,0.6223,True,0.2434,True,False,1.87,Genuine Drought
+Ge021,F21,True,0.5492,True,0.0939,True,False,2.21,Genuine Drought
+Ge022,F22,True,0.5588,True,0.194,True,False,2.92,Genuine Drought
+Ge023,F23,True,0.548,True,0.1771,True,False,3.07,Genuine Drought
+Ge024,F24,True,0.5102,True,0.121,True,False,2.12,Genuine Drought
+Ge025,F25,True,0.5314,True,0.1719,True,False,2.64,Genuine Drought
+Ge026,F26,True,0.5446,True,0.2497,True,False,1.97,Genuine Drought
+Ge027,F27,True,0.5553,True,0.2549,True,False,2.43,Genuine Drought
+Ge028,F28,True,0.4593,True,0.1313,True,False,1.9,Genuine Drought
+Ge029,F29,True,0.5862,True,0.1302,True,False,2.8,Genuine Drought
+Ge030,F30,True,0.4891,True,0.2574,True,False,2.57,Genuine Drought
+Ge031,F31,True,0.565,True,0.2111,True,False,2.89,Genuine Drought
+Ge032,F32,True,0.5684,True,0.0963,True,False,2.2,Genuine Drought
+Ge033,F33,True,0.4749,True,0.1864,True,False,1.88,Genuine Drought
+Ge034,F34,True,0.4789,True,0.1961,True,False,1.8,Genuine Drought
+Ge035,F35,True,0.6296,True,0.1048,True,False,2.19,Genuine Drought
+Ge036,F36,True,0.5537,True,0.1264,True,False,2.98,Genuine Drought
+Ge037,F37,False,0.5424,True,0.1235,False,False,2.84,Genuine Drought
+Ge038,F38,True,0.6161,True,0.141,True,False,2.3,Genuine Drought
+Ge039,F39,True,0.5882,True,0.2204,True,False,2.24,Genuine Drought
+Ge040,F40,True,0.5396,True,0.1892,True,False,2.41,Genuine Drought
+Ge041,F41,True,0.5534,True,0.1089,True,False,3.15,Genuine Drought
+Ge042,F42,True,0.5285,True,0.2082,True,False,2.49,Genuine Drought
+Ge043,F43,True,0.5716,True,0.2329,True,False,2.79,Genuine Drought
+Ge044,F44,False,0.5349,True,0.1277,False,False,2.8,Genuine Drought
+Ge045,F45,True,0.6332,True,0.1936,True,False,2.87,Genuine Drought
+Ge046,F46,True,0.5042,True,0.1151,True,False,2.22,Genuine Drought
+Ge047,F47,True,0.5294,True,0.1119,True,False,2.7,Genuine Drought
+Ge048,F48,True,0.4912,True,0.0828,True,False,3.14,Genuine Drought
+Ge049,F49,True,0.4974,True,0.2335,True,False,2.44,Genuine Drought
+Ge050,F50,True,0.5438,True,0.1105,True,False,2.32,Genuine Drought
+Ge051,F51,True,0.5603,True,0.0975,True,False,2.38,Genuine Drought
+Ge052,F52,True,0.5714,True,0.2379,True,False,2.1,Genuine Drought
+Ge053,F53,True,0.5098,True,0.1328,True,False,3.03,Genuine Drought
+Ge054,F54,True,0.5347,True,0.172,True,False,2.65,Genuine Drought
+Ge055,F55,True,0.5694,True,0.2232,True,False,2.71,Genuine Drought
+Ge056,F56,True,0.4654,True,0.1841,True,False,2.7,Genuine Drought
+Ge057,F57,True,0.5911,True,0.1863,True,False,2.08,Genuine Drought
+Ge058,F58,True,0.5629,True,0.1029,True,False,2.31,Genuine Drought
+Ge059,F59,True,0.5751,True,0.0954,True,False,2.52,Genuine Drought
+Ge060,F60,True,0.6138,True,0.2107,True,False,1.82,Genuine Drought
+Ge061,F61,True,0.5078,True,0.1287,True,False,1.83,Genuine Drought
+Ge062,F62,True,0.5745,True,0.2305,True,False,2.49,Genuine Drought
+Ge063,F63,True,0.5056,True,0.125,True,False,2.63,Genuine Drought
+Ge064,F64,False,0.5328,True,0.2519,False,False,3.15,Genuine Drought
+Ge065,F65,True,0.509,True,0.1246,True,False,2.24,Genuine Drought
+Ge066,F66,True,0.5728,True,0.0883,True,False,2.53,Genuine Drought
+Ge067,F67,True,0.6179,True,0.0976,True,False,1.82,Genuine Drought
+Ge068,F68,True,0.5528,True,0.1517,True,False,1.97,Genuine Drought
+Ge069,F69,True,0.5461,False,0.1927,False,True,2.21,Genuine Drought
+Ge070,F70,True,0.5398,True,0.0927,True,False,2.29,Genuine Drought
+Ge071,F71,True,0.5244,False,0.1836,False,True,2.22,Genuine Drought
+Ge072,F72,True,0.5729,True,0.2495,True,False,2.99,Genuine Drought
+Ge073,F73,False,0.5546,True,0.0925,False,False,2.9,Genuine Drought
+Ge074,F74,True,0.5967,True,0.0928,True,False,2.36,Genuine Drought
+Ge075,F75,True,0.6241,True,0.1307,True,False,2.12,Genuine Drought
+Ge076,F76,True,0.6256,True,0.2123,True,False,2.85,Genuine Drought
+Ge077,F77,True,0.5198,True,0.2252,True,False,3.14,Genuine Drought
+Ge078,F78,True,0.4973,True,0.1413,True,False,3.19,Genuine Drought
+Ge079,F79,True,0.5265,True,0.2158,True,False,1.91,Genuine Drought
+Ge080,F80,True,0.6402,True,0.1376,True,False,2.07,Genuine Drought
+Ge081,F81,True,0.5286,True,0.0964,True,False,2.89,Genuine Drought
+Ge082,F82,True,0.5839,True,0.1937,True,False,2.94,Genuine Drought
+Ge083,F83,True,0.5575,True,0.2154,True,False,2.74,Genuine Drought
+Ge084,F84,True,0.5372,True,0.0904,True,False,3.08,Genuine Drought
+Ge085,F85,True,0.5141,True,0.1011,True,False,3.05,Genuine Drought
+Ge086,F86,True,0.5797,True,0.0951,True,False,2.01,Genuine Drought
+Ge087,F87,False,0.4972,True,0.0946,False,False,2.43,Genuine Drought
+Ge088,F88,True,0.6244,True,0.2263,True,False,2.54,Genuine Drought
+Ge089,F89,True,0.4979,True,0.095,True,False,2.75,Genuine Drought
+Ge090,F90,True,0.5396,True,0.1,True,False,2.93,Genuine Drought
+Ge091,F91,True,0.4943,True,0.1014,True,False,2.41,Genuine Drought
+Ge092,F92,False,0.6014,True,0.2532,False,False,2.42,Genuine Drought
+Ge093,F93,True,0.5215,True,0.2534,True,False,2.98,Genuine Drought
+Ge094,F94,True,0.6755,True,0.175,True,False,3.0,Genuine Drought
+Ge095,F95,True,0.4836,True,0.1742,True,False,2.08,Genuine Drought
+Ge096,F96,True,0.549,True,0.1852,True,False,2.8,Genuine Drought
+Ge097,F97,True,0.5023,True,0.2402,True,False,2.16,Genuine Drought
+Ge098,F98,True,0.5474,True,0.1635,True,False,1.9,Genuine Drought
+Ge099,F99,True,0.6128,True,0.2575,True,False,2.07,Genuine Drought
+Ge100,F100,True,0.5472,True,0.2033,True,False,3.12,Genuine Drought
+Ge101,F101,True,0.6294,True,0.2106,True,False,3.17,Genuine Drought
+Ge102,F102,True,0.5337,True,0.0881,True,False,2.47,Genuine Drought
+Ge103,F103,True,0.6203,True,0.1071,True,False,2.7,Genuine Drought
+Ge104,F104,True,0.5315,True,0.2309,True,False,2.59,Genuine Drought
+Ge105,F105,True,0.5265,True,0.2357,True,False,1.82,Genuine Drought
+Ge106,F106,False,0.5189,True,0.2184,False,False,3.1,Genuine Drought
+Ge107,F107,True,0.5123,True,0.1032,True,False,2.11,Genuine Drought
+Ge108,F108,True,0.5115,True,0.1913,True,False,2.82,Genuine Drought
+Ge109,F109,True,0.5386,True,0.219,True,False,1.84,Genuine Drought
+Ge110,F110,True,0.5648,True,0.2378,True,False,1.97,Genuine Drought
+Ge111,F111,True,0.5697,True,0.1917,True,False,3.09,Genuine Drought
+Ge112,F112,True,0.4864,False,0.1431,False,True,2.87,Genuine Drought
+Ge113,F113,True,0.5545,True,0.1427,True,False,2.86,Genuine Drought
+Ge114,F114,True,0.5708,True,0.2352,True,False,2.61,Genuine Drought
+Ge115,F115,True,0.4521,True,0.1265,True,False,2.15,Genuine Drought
+Ge116,F116,True,0.568,True,0.194,True,False,2.72,Genuine Drought
+Ge117,F117,True,0.547,True,0.1073,True,False,3.09,Genuine Drought
+Ge118,F118,True,0.6031,True,0.2414,True,False,2.11,Genuine Drought
+Ge119,F119,False,0.5514,False,0.0874,False,False,2.05,Genuine Drought
+Ge120,F120,True,0.5637,True,0.1017,True,False,3.13,Genuine Drought
+Ge121,F121,True,0.5397,True,0.2043,True,False,2.61,Genuine Drought
+Ge122,F122,True,0.594,True,0.2372,True,False,2.2,Genuine Drought
+Ge123,F123,True,0.492,True,0.2147,True,False,3.13,Genuine Drought
+Ge124,F124,True,0.575,True,0.1913,True,False,2.89,Genuine Drought
+Ge000,F0,True,0.3695,True,0.1153,True,False,2.09,Genuine Flood
+Ge001,F1,True,0.5826,True,0.095,True,False,2.26,Genuine Flood
+Ge002,F2,True,0.427,True,0.1328,True,False,1.9,Genuine Flood
+Ge003,F3,False,0.257,True,0.0968,False,False,2.51,Genuine Flood
+Ge004,F4,True,0.6983,True,0.1498,True,False,2.97,Genuine Flood
+Ge005,F5,True,0.3551,True,0.1404,True,False,2.88,Genuine Flood
+Ge006,F6,True,0.3526,True,0.1599,True,False,3.03,Genuine Flood
+Ge007,F7,True,0.3914,True,0.0942,True,False,2.4,Genuine Flood
+Ge008,F8,False,0.2902,True,0.1199,False,False,2.87,Genuine Flood
+Ge009,F9,False,0.3479,True,0.1375,False,False,2.53,Genuine Flood
+Ge010,F10,True,0.758,True,0.2012,True,False,2.12,Genuine Flood
+Ge011,F11,True,0.6395,True,0.2101,True,False,2.12,Genuine Flood
+Ge012,F12,False,0.5483,True,0.1062,False,False,3.15,Genuine Flood
+Ge013,F13,True,0.3767,True,0.0961,True,False,2.84,Genuine Flood
+Ge014,F14,True,0.4845,True,0.1474,True,False,2.22,Genuine Flood
+Ge015,F15,True,0.4441,True,0.0889,True,False,2.94,Genuine Flood
+Ge016,F16,True,0.6622,True,0.1754,True,False,3.06,Genuine Flood
+Ge017,F17,True,0.5833,True,0.1288,True,False,2.86,Genuine Flood
+Ge018,F18,True,0.6206,True,0.1823,True,False,2.73,Genuine Flood
+Ge019,F19,True,0.6988,True,0.1604,True,False,2.79,Genuine Flood
+Ge020,F20,True,0.5922,True,0.1029,True,False,2.62,Genuine Flood
+Ge021,F21,True,0.3555,False,0.1302,False,True,2.17,Genuine Flood
+Ge022,F22,True,0.643,True,0.1328,True,False,2.8,Genuine Flood
+Ge023,F23,True,0.4785,True,0.1125,True,False,2.52,Genuine Flood
+Ge024,F24,True,0.717,True,0.1674,True,False,3.11,Genuine Flood
+Ge025,F25,True,0.3068,True,0.0995,True,False,2.8,Genuine Flood
+Ge026,F26,True,0.6709,True,0.1904,True,False,2.77,Genuine Flood
+Ge027,F27,True,0.3751,True,0.0847,True,False,2.18,Genuine Flood
+Ge028,F28,True,0.5016,True,0.195,True,False,2.28,Genuine Flood
+Ge029,F29,True,0.3036,True,0.1916,True,False,3.0,Genuine Flood
+Ge030,F30,True,0.3802,True,0.1698,True,False,2.59,Genuine Flood
+Ge031,F31,True,0.5414,True,0.1054,True,False,2.33,Genuine Flood
+Ge032,F32,True,0.6512,True,0.2126,True,False,2.83,Genuine Flood
+Ge033,F33,True,0.3611,False,0.0825,False,True,2.97,Genuine Flood
+Ge034,F34,False,0.6745,True,0.2091,False,False,3.16,Genuine Flood
+Ge035,F35,True,0.5925,True,0.1394,True,False,2.79,Genuine Flood
+Ge036,F36,True,0.5883,True,0.0959,True,False,3.15,Genuine Flood
+Ge037,F37,True,0.7463,True,0.2018,True,False,2.81,Genuine Flood
+Ge038,F38,True,0.4277,True,0.1269,True,False,2.92,Genuine Flood
+Ge039,F39,True,0.5963,True,0.1552,True,False,1.98,Genuine Flood
+Ge040,F40,True,0.6962,True,0.1433,True,False,2.23,Genuine Flood
+Ge041,F41,True,0.3182,True,0.1498,True,False,2.74,Genuine Flood
+Ge042,F42,True,0.4642,True,0.1685,True,False,2.67,Genuine Flood
+Ge043,F43,True,0.3768,True,0.1008,True,False,3.07,Genuine Flood
+Ge044,F44,False,0.4634,True,0.1634,False,False,1.87,Genuine Flood
+Ge045,F45,True,0.3636,True,0.1087,True,False,2.23,Genuine Flood
+Ge046,F46,True,0.369,True,0.0892,True,False,2.27,Genuine Flood
+Ge047,F47,True,0.5951,True,0.1361,True,False,1.9,Genuine Flood
+Ge048,F48,True,0.5614,True,0.2125,True,False,2.41,Genuine Flood
+Ge049,F49,True,0.4251,True,0.0836,True,False,1.88,Genuine Flood
+Ge050,F50,False,0.2776,True,0.1111,False,False,2.7,Genuine Flood
+Ge051,F51,True,0.3076,True,0.192,True,False,2.08,Genuine Flood
+Ge052,F52,True,0.2894,True,0.114,True,False,1.94,Genuine Flood
+Ge053,F53,True,0.5725,True,0.1735,True,False,2.4,Genuine Flood
+Ge054,F54,True,0.3006,True,0.092,True,False,2.53,Genuine Flood
+Ge055,F55,True,0.373,True,0.139,True,False,1.96,Genuine Flood
+Ge056,F56,True,0.613,True,0.1332,True,False,2.79,Genuine Flood
+Ge057,F57,True,0.5152,True,0.1573,True,False,2.36,Genuine Flood
+Ge058,F58,True,0.5106,True,0.0996,True,False,2.48,Genuine Flood
+Ge059,F59,True,0.6951,True,0.1395,True,False,2.72,Genuine Flood
+Ge060,F60,True,0.3105,True,0.1161,True,False,1.91,Genuine Flood
+Ge061,F61,True,0.3519,True,0.104,True,False,2.22,Genuine Flood
+Ge062,F62,True,0.3447,True,0.1607,True,False,2.67,Genuine Flood
+Ge063,F63,True,0.447,True,0.1089,True,False,1.82,Genuine Flood
+Ge064,F64,True,0.3585,True,0.1636,True,False,2.75,Genuine Flood
+Ge065,F65,True,0.5862,True,0.1386,True,False,2.24,Genuine Flood
+Ge066,F66,True,0.3809,True,0.1833,True,False,3.01,Genuine Flood
+Ge067,F67,True,0.2931,True,0.1204,True,False,2.02,Genuine Flood
+Ge068,F68,True,0.4344,True,0.1466,True,False,3.04,Genuine Flood
+Ge069,F69,True,0.5188,True,0.0844,True,False,2.78,Genuine Flood
+Ge070,F70,True,0.3801,True,0.1636,True,False,1.82,Genuine Flood
+Ge071,F71,True,0.348,True,0.1819,True,False,2.43,Genuine Flood
+Ge072,F72,True,0.4474,True,0.1947,True,False,2.98,Genuine Flood
+Ge073,F73,True,0.6224,True,0.1305,True,False,3.17,Genuine Flood
+Ge074,F74,True,0.3788,False,0.1424,False,True,2.41,Genuine Flood
+Ge075,F75,True,0.3998,True,0.1929,True,False,3.08,Genuine Flood
+Ge076,F76,True,0.5243,True,0.1485,True,False,2.41,Genuine Flood
+Ge077,F77,True,0.3123,False,0.1788,False,True,2.63,Genuine Flood
+Ge078,F78,True,0.7295,True,0.0848,True,False,2.14,Genuine Flood
+Ge079,F79,True,0.6501,True,0.2122,True,False,2.08,Genuine Flood
+Ge080,F80,True,0.4577,True,0.196,True,False,1.82,Genuine Flood
+Ge081,F81,False,0.2334,True,0.0908,False,False,2.18,Genuine Flood
+Ge082,F82,True,0.5098,True,0.1241,True,False,2.44,Genuine Flood
+Ge083,F83,True,0.5204,True,0.204,True,False,2.74,Genuine Flood
+Ge084,F84,True,0.5829,True,0.083,True,False,2.97,Genuine Flood
+Ge085,F85,True,0.6984,True,0.2197,True,False,3.11,Genuine Flood
+Ge086,F86,True,0.4215,True,0.1679,True,False,2.66,Genuine Flood
+Ge087,F87,True,0.6374,True,0.139,True,False,2.53,Genuine Flood
+Ge088,F88,True,0.5581,True,0.1202,True,False,3.09,Genuine Flood
+Ge089,F89,True,0.3223,True,0.2183,True,False,2.18,Genuine Flood
+Ge090,F90,True,0.4199,True,0.213,True,False,2.73,Genuine Flood
+Ge091,F91,True,0.6632,True,0.2123,True,False,2.68,Genuine Flood
+Ge092,F92,True,0.5421,True,0.1124,True,False,2.4,Genuine Flood
+Ge093,F93,True,0.6772,True,0.1123,True,False,3.11,Genuine Flood
+Ge094,F94,True,0.3896,True,0.129,True,False,2.21,Genuine Flood
+Ge095,F95,True,0.3763,False,0.2193,False,True,2.22,Genuine Flood
+Ge096,F96,True,0.3874,True,0.1015,True,False,2.49,Genuine Flood
+Ge097,F97,True,0.6203,True,0.163,True,False,2.87,Genuine Flood
+Ge098,F98,True,0.4944,True,0.0981,True,False,2.16,Genuine Flood
+Ge099,F99,True,0.7043,True,0.1717,True,False,1.9,Genuine Flood
+Ge000,F0,True,0.6153,True,0.1416,True,False,3.03,Genuine Cold
+Ge001,F1,True,0.4344,True,0.2093,True,False,1.95,Genuine Cold
+Ge002,F2,True,0.392,True,0.1948,True,False,2.15,Genuine Cold
+Ge003,F3,True,0.5406,True,0.1427,True,False,2.3,Genuine Cold
+Ge004,F4,True,0.4051,True,0.2388,True,False,2.91,Genuine Cold
+Ge005,F5,True,0.3658,True,0.199,True,False,3.13,Genuine Cold
+Ge006,F6,True,0.6572,True,0.1047,True,False,2.51,Genuine Cold
+Ge007,F7,True,0.6508,True,0.1257,True,False,1.94,Genuine Cold
+Ge008,F8,False,0.2734,True,0.1459,False,False,2.5,Genuine Cold
+Ge009,F9,True,0.2879,True,0.2014,True,False,2.75,Genuine Cold
+Ge010,F10,True,0.3994,True,0.1866,True,False,2.85,Genuine Cold
+Ge011,F11,True,0.5942,True,0.1164,True,False,2.02,Genuine Cold
+Ge012,F12,True,0.3709,True,0.2133,True,False,2.77,Genuine Cold
+Ge013,F13,True,0.4569,True,0.1073,True,False,2.03,Genuine Cold
+Ge014,F14,False,0.3223,True,0.1208,False,False,2.83,Genuine Cold
+Ge015,F15,True,0.6327,True,0.1782,True,False,1.92,Genuine Cold
+Ge016,F16,False,0.3688,True,0.2595,False,False,3.05,Genuine Cold
+Ge017,F17,True,0.5322,True,0.211,True,False,1.95,Genuine Cold
+Ge018,F18,True,0.6565,True,0.1437,True,False,2.65,Genuine Cold
+Ge019,F19,True,0.6702,True,0.1672,True,False,2.35,Genuine Cold
+Ge020,F20,True,0.5797,True,0.1655,True,False,3.14,Genuine Cold
+Ge021,F21,True,0.5117,True,0.2043,True,False,2.38,Genuine Cold
+Ge022,F22,True,0.3954,True,0.1297,True,False,2.78,Genuine Cold
+Ge023,F23,True,0.4124,True,0.2218,True,False,2.5,Genuine Cold
+Ge024,F24,True,0.6747,True,0.1987,True,False,2.68,Genuine Cold
+Ge025,F25,True,0.4267,True,0.2097,True,False,2.65,Genuine Cold
+Ge026,F26,True,0.5278,True,0.1931,True,False,2.0,Genuine Cold
+Ge027,F27,True,0.3581,True,0.1019,True,False,2.35,Genuine Cold
+Ge028,F28,True,0.5279,True,0.1467,True,False,2.51,Genuine Cold
+Ge029,F29,False,0.2671,False,0.1769,False,False,2.91,Genuine Cold
+Ge030,F30,True,0.5226,True,0.1798,True,False,2.58,Genuine Cold
+Ge031,F31,True,0.3244,True,0.1522,True,False,2.15,Genuine Cold
+Ge032,F32,False,0.5674,True,0.1126,False,False,2.55,Genuine Cold
+Ge033,F33,True,0.6418,True,0.2281,True,False,2.98,Genuine Cold
+Ge034,F34,True,0.6208,True,0.213,True,False,2.91,Genuine Cold
+Ge035,F35,True,0.4032,True,0.2134,True,False,3.0,Genuine Cold
+Ge036,F36,True,0.366,True,0.2304,True,False,1.91,Genuine Cold
+Ge037,F37,True,0.4116,True,0.1724,True,False,3.06,Genuine Cold
+Ge038,F38,True,0.4031,True,0.1097,True,False,3.03,Genuine Cold
+Ge039,F39,True,0.5655,True,0.2561,True,False,3.16,Genuine Cold
+Ge040,F40,True,0.6182,True,0.1797,True,False,1.9,Genuine Cold
+Ge041,F41,True,0.456,True,0.256,True,False,2.41,Genuine Cold
+Ge042,F42,True,0.5293,True,0.1049,True,False,2.25,Genuine Cold
+Ge043,F43,True,0.5184,True,0.2188,True,False,2.32,Genuine Cold
+Ge044,F44,True,0.6004,True,0.1064,True,False,2.45,Genuine Cold
+Ge045,F45,True,0.4729,True,0.1779,True,False,2.79,Genuine Cold
+Ge046,F46,False,0.2845,True,0.1948,False,False,2.73,Genuine Cold
+Ge047,F47,True,0.6033,False,0.2173,False,True,2.93,Genuine Cold
+Ge048,F48,True,0.3647,True,0.138,True,False,1.89,Genuine Cold
+Ge049,F49,True,0.5953,True,0.1396,True,False,2.89,Genuine Cold
+Fr000,F0,True,0.4631,False,0.6982,False,True,2.53,Fraud Irrigation
+Fr001,F1,True,0.5128,False,0.7142,False,True,2.67,Fraud Irrigation
+Fr002,F2,True,0.5639,False,0.6634,False,True,2.07,Fraud Irrigation
+Fr003,F3,True,0.5253,False,0.6343,False,True,3.07,Fraud Irrigation
+Fr004,F4,True,0.4843,False,0.7267,False,True,2.72,Fraud Irrigation
+Fr005,F5,True,0.5481,False,0.716,False,True,2.69,Fraud Irrigation
+Fr006,F6,True,0.5186,False,0.7671,False,True,2.8,Fraud Irrigation
+Fr007,F7,True,0.5076,False,0.6828,False,True,2.24,Fraud Irrigation
+Fr008,F8,True,0.4551,False,0.7835,False,True,2.39,Fraud Irrigation
+Fr009,F9,True,0.5222,False,0.7967,False,True,2.06,Fraud Irrigation
+Fr010,F10,True,0.4373,False,0.767,False,True,2.34,Fraud Irrigation
+Fr011,F11,True,0.5194,False,0.5849,False,True,2.91,Fraud Irrigation
+Fr012,F12,True,0.5269,False,0.7184,False,True,2.17,Fraud Irrigation
+Fr013,F13,True,0.4394,False,0.767,False,True,2.25,Fraud Irrigation
+Fr014,F14,True,0.5555,False,0.7208,False,True,2.77,Fraud Irrigation
+Fr015,F15,True,0.5053,False,0.5576,False,True,2.17,Fraud Irrigation
+Fr016,F16,True,0.4566,False,0.7147,False,True,2.89,Fraud Irrigation
+Fr017,F17,True,0.54,False,0.7999,False,True,1.92,Fraud Irrigation
+Fr018,F18,True,0.587,False,0.7456,False,True,2.41,Fraud Irrigation
+Fr019,F19,False,0.4961,False,0.6318,False,False,1.85,Fraud Irrigation
+Fr020,F20,True,0.5087,False,0.6589,False,True,2.58,Fraud Irrigation
+Fr021,F21,False,0.4399,False,0.6311,False,False,2.25,Fraud Irrigation
+Fr022,F22,True,0.5061,False,0.6622,False,True,2.26,Fraud Irrigation
+Fr023,F23,True,0.5165,False,0.7009,False,True,2.96,Fraud Irrigation
+Fr024,F24,True,0.4915,False,0.7658,False,True,2.61,Fraud Irrigation
+Fr025,F25,True,0.5101,False,0.645,False,True,3.2,Fraud Irrigation
+Fr026,F26,True,0.5236,False,0.7412,False,True,2.93,Fraud Irrigation
+Fr027,F27,True,0.4535,False,0.5989,False,True,2.14,Fraud Irrigation
+Fr028,F28,False,0.539,False,0.7818,False,False,1.98,Fraud Irrigation
+Fr029,F29,False,0.5533,False,0.6715,False,False,2.9,Fraud Irrigation
+Fr030,F30,True,0.5398,False,0.6848,False,True,2.72,Fraud Irrigation
+Fr031,F31,True,0.5143,True,0.6534,True,False,2.87,Fraud Irrigation
+Fr032,F32,True,0.5129,False,0.6813,False,True,1.85,Fraud Irrigation
+Fr033,F33,True,0.4598,False,0.7907,False,True,2.59,Fraud Irrigation
+Fr034,F34,True,0.5001,False,0.7083,False,True,2.62,Fraud Irrigation
+Fr035,F35,True,0.4756,False,0.607,False,True,2.86,Fraud Irrigation
+Fr036,F36,True,0.5557,False,0.775,False,True,2.34,Fraud Irrigation
+Fr037,F37,True,0.4942,False,0.7557,False,True,3.1,Fraud Irrigation
+Fr038,F38,True,0.5367,False,0.6629,False,True,2.54,Fraud Irrigation
+Fr039,F39,True,0.495,False,0.6042,False,True,3.17,Fraud Irrigation
+Fr040,F40,True,0.5282,False,0.6867,False,True,2.8,Fraud Irrigation
+Fr041,F41,True,0.526,False,0.7969,False,True,2.44,Fraud Irrigation
+Fr042,F42,True,0.5491,False,0.7294,False,True,2.32,Fraud Irrigation
+Fr043,F43,True,0.5008,False,0.7311,False,True,2.5,Fraud Irrigation
+Fr044,F44,True,0.4843,False,0.7735,False,True,2.71,Fraud Irrigation
+Fr045,F45,True,0.5308,False,0.5674,False,True,2.69,Fraud Irrigation
+Fr046,F46,True,0.4695,False,0.685,False,True,2.79,Fraud Irrigation
+Fr047,F47,True,0.4683,False,0.6333,False,True,2.97,Fraud Irrigation
+Fr048,F48,True,0.5083,True,0.7327,True,False,2.89,Fraud Irrigation
+Fr049,F49,True,0.5109,False,0.5938,False,True,2.97,Fraud Irrigation
+Fr050,F50,True,0.4594,False,0.6626,False,True,2.55,Fraud Irrigation
+Fr051,F51,True,0.4847,False,0.7818,False,True,2.02,Fraud Irrigation
+Fr052,F52,True,0.5584,False,0.7818,False,True,3.09,Fraud Irrigation
+Fr053,F53,True,0.5212,False,0.5723,False,True,2.3,Fraud Irrigation
+Fr054,F54,True,0.4715,True,0.7272,True,False,2.39,Fraud Irrigation
+Fr055,F55,True,0.5443,False,0.5719,False,True,3.03,Fraud Irrigation
+Fr056,F56,True,0.468,False,0.6618,False,True,2.1,Fraud Irrigation
+Fr057,F57,True,0.487,False,0.798,False,True,2.08,Fraud Irrigation
+Fr058,F58,True,0.4347,False,0.7544,False,True,2.92,Fraud Irrigation
+Fr059,F59,True,0.5365,True,0.7475,True,False,3.06,Fraud Irrigation
+Fr060,F60,True,0.4984,False,0.7237,False,True,2.45,Fraud Irrigation
+Fr061,F61,True,0.5503,False,0.5831,False,True,2.27,Fraud Irrigation
+Fr062,F62,True,0.4936,False,0.7412,False,True,2.94,Fraud Irrigation
+Fr063,F63,True,0.5262,False,0.6419,False,True,1.92,Fraud Irrigation
+Fr064,F64,True,0.5591,False,0.6874,False,True,2.1,Fraud Irrigation
+Fr065,F65,True,0.4649,False,0.6599,False,True,2.18,Fraud Irrigation
+Fr066,F66,True,0.5628,False,0.7126,False,True,2.01,Fraud Irrigation
+Fr067,F67,True,0.5145,False,0.5645,False,True,3.15,Fraud Irrigation
+Fr068,F68,True,0.4577,False,0.6098,False,True,2.92,Fraud Irrigation
+Fr069,F69,True,0.5151,False,0.723,False,True,2.13,Fraud Irrigation
+Fr070,F70,True,0.5498,False,0.7038,False,True,2.3,Fraud Irrigation
+Fr071,F71,True,0.5267,False,0.5827,False,True,2.09,Fraud Irrigation
+Fr072,F72,True,0.4704,False,0.6535,False,True,2.28,Fraud Irrigation
+Fr073,F73,True,0.4572,False,0.654,False,True,1.92,Fraud Irrigation
+Fr074,F74,True,0.5074,False,0.5843,False,True,2.59,Fraud Irrigation
+Fr075,F75,True,0.4945,False,0.794,False,True,2.61,Fraud Irrigation
+Fr076,F76,True,0.48,False,0.687,False,True,2.67,Fraud Irrigation
+Fr077,F77,True,0.5348,False,0.5875,False,True,1.92,Fraud Irrigation
+Fr078,F78,True,0.5286,False,0.6486,False,True,2.95,Fraud Irrigation
+Fr079,F79,True,0.531,False,0.7467,False,True,2.44,Fraud Irrigation
+Fr080,F80,True,0.5235,False,0.7602,False,True,2.73,Fraud Irrigation
+Fr081,F81,True,0.5738,False,0.7148,False,True,2.24,Fraud Irrigation
+Fr082,F82,True,0.4533,False,0.6796,False,True,3.19,Fraud Irrigation
+Fr083,F83,True,0.5572,False,0.5604,False,True,2.07,Fraud Irrigation
+Fr084,F84,True,0.5485,False,0.553,False,True,2.49,Fraud Irrigation
+Fr085,F85,True,0.4678,False,0.6374,False,True,2.31,Fraud Irrigation
+Fr086,F86,True,0.4815,False,0.5746,False,True,2.26,Fraud Irrigation
+Fr087,F87,True,0.488,False,0.5705,False,True,1.98,Fraud Irrigation
+Fr088,F88,True,0.4525,False,0.6455,False,True,2.05,Fraud Irrigation
+Fr089,F89,True,0.5292,False,0.711,False,True,2.49,Fraud Irrigation
+Fr090,F90,True,0.4868,False,0.6232,False,True,2.57,Fraud Irrigation
+Fr091,F91,True,0.4733,False,0.7529,False,True,2.0,Fraud Irrigation
+Fr092,F92,True,0.4998,False,0.6062,False,True,2.19,Fraud Irrigation
+Fr093,F93,True,0.5231,False,0.7858,False,True,2.96,Fraud Irrigation
+Fr094,F94,True,0.5414,False,0.7115,False,True,3.16,Fraud Irrigation
+Fr095,F95,True,0.5451,False,0.7797,False,True,2.32,Fraud Irrigation
+Fr096,F96,True,0.5562,False,0.7321,False,True,1.92,Fraud Irrigation
+Fr097,F97,True,0.4969,False,0.7962,False,True,2.91,Fraud Irrigation
+Fr098,F98,True,0.4406,False,0.7315,False,True,2.11,Fraud Irrigation
+Fr099,F99,True,0.4796,False,0.7332,False,True,2.15,Fraud Irrigation
+Fr000,F0,False,0.0,False,0.1791,False,False,3.02,Fraud Local Damage
+Fr001,F1,False,0.0154,True,0.1224,False,False,2.85,Fraud Local Damage
+Fr002,F2,False,0.0142,True,0.2389,False,False,2.29,Fraud Local Damage
+Fr003,F3,False,0.0202,True,0.1777,False,False,3.09,Fraud Local Damage
+Fr004,F4,True,0.0008,True,0.2097,True,False,2.09,Fraud Local Damage
+Fr005,F5,False,0.0,True,0.2044,False,False,2.46,Fraud Local Damage
+Fr006,F6,False,0.0009,True,0.1208,False,False,2.02,Fraud Local Damage
+Fr007,F7,False,0.0013,True,0.1628,False,False,2.64,Fraud Local Damage
+Fr008,F8,False,0.0021,True,0.1578,False,False,2.36,Fraud Local Damage
+Fr009,F9,False,0.0008,True,0.2112,False,False,1.84,Fraud Local Damage
+Fr010,F10,False,0.0325,True,0.1091,False,False,2.51,Fraud Local Damage
+Fr011,F11,False,0.0097,True,0.1947,False,False,2.51,Fraud Local Damage
+Fr012,F12,False,0.0059,True,0.1108,False,False,1.85,Fraud Local Damage
+Fr013,F13,False,0.0418,True,0.2104,False,False,2.97,Fraud Local Damage
+Fr014,F14,False,0.0,False,0.1608,False,False,2.43,Fraud Local Damage
+Fr015,F15,False,0.0368,True,0.2398,False,False,2.81,Fraud Local Damage
+Fr016,F16,False,0.0109,True,0.21,False,False,2.19,Fraud Local Damage
+Fr017,F17,False,0.0182,True,0.1801,False,False,2.92,Fraud Local Damage
+Fr018,F18,False,0.0,True,0.1037,False,False,1.98,Fraud Local Damage
+Fr019,F19,False,0.0418,True,0.1418,False,False,2.75,Fraud Local Damage
+Fr020,F20,False,0.0194,True,0.2179,False,False,2.34,Fraud Local Damage
+Fr021,F21,False,0.0082,False,0.1187,False,False,2.96,Fraud Local Damage
+Fr022,F22,False,0.0276,True,0.2021,False,False,2.13,Fraud Local Damage
+Fr023,F23,False,0.0,False,0.2052,False,False,3.15,Fraud Local Damage
+Fr024,F24,False,0.0008,True,0.1395,False,False,2.17,Fraud Local Damage
+Fr025,F25,False,0.0,True,0.1381,False,False,2.24,Fraud Local Damage
+Fr026,F26,False,0.0,True,0.1683,False,False,3.04,Fraud Local Damage
+Fr027,F27,False,0.0333,True,0.1745,False,False,2.19,Fraud Local Damage
+Fr028,F28,False,0.0,False,0.1929,False,False,2.8,Fraud Local Damage
+Fr029,F29,False,0.0,True,0.1586,False,False,3.19,Fraud Local Damage
+Fr030,F30,False,0.0,True,0.1916,False,False,1.91,Fraud Local Damage
+Fr031,F31,False,0.0234,True,0.1852,False,False,2.28,Fraud Local Damage
+Fr032,F32,False,0.0,True,0.1351,False,False,2.06,Fraud Local Damage
+Fr033,F33,False,0.0,True,0.2204,False,False,1.89,Fraud Local Damage
+Fr034,F34,False,0.0076,True,0.1114,False,False,2.63,Fraud Local Damage
+Fr035,F35,False,0.022,True,0.219,False,False,2.43,Fraud Local Damage
+Fr036,F36,False,0.0114,True,0.1764,False,False,2.46,Fraud Local Damage
+Fr037,F37,False,0.0321,True,0.1073,False,False,2.86,Fraud Local Damage
+Fr038,F38,False,0.0,True,0.1462,False,False,2.94,Fraud Local Damage
+Fr039,F39,False,0.0196,True,0.2231,False,False,1.81,Fraud Local Damage
+Fr040,F40,False,0.0235,True,0.2081,False,False,2.38,Fraud Local Damage
+Fr041,F41,False,0.0553,True,0.1754,False,False,3.05,Fraud Local Damage
+Fr042,F42,False,0.0176,True,0.1533,False,False,2.77,Fraud Local Damage
+Fr043,F43,False,0.008,True,0.1402,False,False,2.06,Fraud Local Damage
+Fr044,F44,False,0.0167,True,0.1554,False,False,2.96,Fraud Local Damage
+Fr045,F45,False,0.0131,True,0.2111,False,False,2.54,Fraud Local Damage
+Fr046,F46,False,0.0,True,0.2377,False,False,2.22,Fraud Local Damage
+Fr047,F47,False,0.032,True,0.1916,False,False,2.03,Fraud Local Damage
+Fr048,F48,False,0.0096,True,0.2235,False,False,3.06,Fraud Local Damage
+Fr049,F49,False,0.003,True,0.2378,False,False,2.72,Fraud Local Damage
+No000,F0,False,0.007,False,0.6782,False,False,2.59,Normal Conditions
+No001,F1,False,0.0,False,0.7658,False,False,2.36,Normal Conditions
+No002,F2,False,0.0,True,0.8075,False,False,2.96,Normal Conditions
+No003,F3,False,0.0,False,0.6914,False,False,2.61,Normal Conditions
+No004,F4,False,0.0,False,0.7985,False,False,3.17,Normal Conditions
+No005,F5,False,0.0047,False,0.5802,False,False,2.63,Normal Conditions
+No006,F6,False,0.0,True,0.7746,False,False,2.72,Normal Conditions
+No007,F7,False,0.0053,False,0.6914,False,False,2.04,Normal Conditions
+No008,F8,False,0.0,False,0.6475,False,False,3.11,Normal Conditions
+No009,F9,False,0.0059,False,0.6182,False,False,2.16,Normal Conditions
+No010,F10,False,0.0,False,0.7038,False,False,2.29,Normal Conditions
+No011,F11,False,0.0,False,0.7459,False,False,2.77,Normal Conditions
+No012,F12,False,0.0031,False,0.7495,False,False,2.66,Normal Conditions
+No013,F13,False,0.0,False,0.5833,False,False,2.3,Normal Conditions
+No014,F14,False,0.0,False,0.6641,False,False,2.47,Normal Conditions
+No015,F15,False,0.0,False,0.772,False,False,2.93,Normal Conditions
+No016,F16,False,0.0,False,0.8232,False,False,1.92,Normal Conditions
+No017,F17,False,0.0104,False,0.768,False,False,2.98,Normal Conditions
+No018,F18,False,0.0067,False,0.5838,False,False,2.93,Normal Conditions
+No019,F19,False,0.0,False,0.5537,False,False,2.44,Normal Conditions
+No020,F20,False,0.0,False,0.64,False,False,1.97,Normal Conditions
+No021,F21,False,0.0058,False,0.7503,False,False,2.54,Normal Conditions
+No022,F22,True,0.0,False,0.6219,False,True,2.37,Normal Conditions
+No023,F23,False,0.0118,False,0.8067,False,False,3.16,Normal Conditions
+No024,F24,False,0.0,False,0.5845,False,False,1.9,Normal Conditions
+No025,F25,False,0.0048,False,0.8137,False,False,2.66,Normal Conditions
+No026,F26,False,0.0,False,0.6804,False,False,1.91,Normal Conditions
+No027,F27,False,0.0,False,0.7321,False,False,2.37,Normal Conditions
+No028,F28,False,0.0,False,0.7037,False,False,2.66,Normal Conditions
+No029,F29,False,0.0,False,0.8352,False,False,1.95,Normal Conditions
+No030,F30,False,0.0,False,0.5713,False,False,2.75,Normal Conditions
+No031,F31,False,0.0,False,0.592,False,False,2.35,Normal Conditions
+No032,F32,False,0.0,False,0.6088,False,False,2.96,Normal Conditions
+No033,F33,True,0.0,False,0.5517,False,True,2.04,Normal Conditions
+No034,F34,False,0.0,False,0.6517,False,False,2.12,Normal Conditions
+No035,F35,False,0.0,False,0.8295,False,False,3.14,Normal Conditions
+No036,F36,False,0.0,False,0.6536,False,False,3.11,Normal Conditions
+No037,F37,False,0.0,False,0.8478,False,False,2.68,Normal Conditions
+No038,F38,False,0.0,False,0.6733,False,False,2.54,Normal Conditions
+No039,F39,False,0.0,False,0.7971,False,False,2.82,Normal Conditions
+No040,F40,False,0.0,False,0.5653,False,False,2.97,Normal Conditions
+No041,F41,False,0.0,False,0.5843,False,False,2.4,Normal Conditions
+No042,F42,False,0.0,False,0.6757,False,False,2.15,Normal Conditions
+No043,F43,False,0.0,False,0.8325,False,False,2.52,Normal Conditions
+No044,F44,False,0.0,False,0.553,False,False,2.26,Normal Conditions
+No045,F45,True,0.0067,False,0.7672,False,True,1.81,Normal Conditions
+No046,F46,False,0.0,False,0.5926,False,False,2.35,Normal Conditions
+No047,F47,False,0.0,False,0.7232,False,False,2.74,Normal Conditions
+No048,F48,False,0.0,False,0.7688,False,False,2.36,Normal Conditions
+No049,F49,False,0.0,False,0.7519,False,False,3.19,Normal Conditions
+No050,F50,True,0.0,False,0.7895,False,True,2.72,Normal Conditions
+No051,F51,False,0.0,False,0.6457,False,False,3.11,Normal Conditions
+No052,F52,False,0.0,False,0.7565,False,False,2.11,Normal Conditions
+No053,F53,False,0.0,False,0.817,False,False,2.38,Normal Conditions
+No054,F54,False,0.0,False,0.7411,False,False,2.39,Normal Conditions
+No055,F55,False,0.0,False,0.7531,False,False,1.92,Normal Conditions
+No056,F56,False,0.0115,False,0.6862,False,False,1.82,Normal Conditions
+No057,F57,False,0.0,False,0.7016,False,False,2.03,Normal Conditions
+No058,F58,False,0.0,True,0.6664,False,False,2.97,Normal Conditions
+No059,F59,False,0.0,False,0.6368,False,False,2.12,Normal Conditions
+No060,F60,False,0.0,False,0.8165,False,False,2.39,Normal Conditions
+No061,F61,False,0.0,True,0.8383,False,False,2.6,Normal Conditions
+No062,F62,False,0.0,True,0.5962,False,False,2.62,Normal Conditions
+No063,F63,True,0.005,False,0.6821,False,True,2.23,Normal Conditions
+No064,F64,True,0.0,False,0.6527,False,True,2.36,Normal Conditions
+No065,F65,False,0.0,False,0.7241,False,False,2.19,Normal Conditions
+No066,F66,False,0.0,False,0.6705,False,False,3.07,Normal Conditions
+No067,F67,False,0.0,False,0.7362,False,False,1.87,Normal Conditions
+No068,F68,False,0.0,False,0.7129,False,False,2.93,Normal Conditions
+No069,F69,False,0.0003,False,0.71,False,False,2.94,Normal Conditions
+No070,F70,False,0.0,False,0.7883,False,False,2.43,Normal Conditions
+No071,F71,False,0.0,False,0.6888,False,False,1.92,Normal Conditions
+No072,F72,False,0.0,False,0.6626,False,False,1.87,Normal Conditions
+No073,F73,False,0.0,False,0.7034,False,False,2.27,Normal Conditions
+No074,F74,False,0.0112,False,0.6723,False,False,2.03,Normal Conditions

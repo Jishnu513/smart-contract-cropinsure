@@ -1,0 +1,36 @@
+{
+  "developer": "Jishnu S (CH.EN.U4CSE22026)",
+  "timestamp": "2026-03-09T22:20:46.049459",
+  "noise_config": {
+    "feature_noise": 0.28,
+    "label_flip": 0.045
+  },
+  "if_fix": "y_bin = Extreme Risk only (~13%) matches contamination=0.13",
+  "expansion": {
+    "original": 6931,
+    "total": 550000,
+    "factor": 79.35362862501803
+  },
+  "RF": {
+    "accuracy": 0.9111636363636364,
+    "precision": 0.9115101266543281,
+    "recall": 0.9111636363636364,
+    "f1": 0.9112807890191732,
+    "cv_mean": 0.9086333333333334,
+    "cv_std": 0.0009329612353504564
+  },
+  "XGB": {
+    "accuracy": 0.9116545454545455,
+    "precision": 0.9119023314912003,
+    "recall": 0.9116545454545455,
+    "f1": 0.9117440554008973,
+    "cv_mean": 0.9090083333333334,
+    "cv_std": 0.0007487953288078595
+  },
+  "IF": {
+    "accuracy": 0.8538,
+    "precision": 0.9124287824435535,
+    "recall": 0.4664676903160847,
+    "f1": 0.6173321277304525
+  }
+}

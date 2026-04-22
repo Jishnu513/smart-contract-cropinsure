@@ -1,0 +1,68 @@
+# =============================================
+# CropInsure - GitHub Upload Filter
+# =============================================
+
+# LARGE VIDEO FILE (737 MB - GitHub limit is 100MB)
+crop.mp4
+
+# LARGE CSV DATASETS (not needed for deployment)
+crop_recommendation_expanded.csv
+rainfall_in_india_1901-2015.csv
+
+# ZIP FILES
+files.zip
+
+# EXTRACTED FOLDER
+files_extracted/
+
+# POWERPOINT & WORD DOCS (not needed for deployment)
+*.pptx
+*.docx
+~$*.pptx
+
+# DIAGRAM GENERATOR SCRIPTS (utility only)
+gen_flow_diagram.py
+gen_flow_v2.py
+gen_iforest.py
+generate_arch_diagram_v3.py
+generate_arch_reference_style.py
+generate_arch_v4.py
+fix_paper_images.py
+check_paper.py
+
+# ARCHITECTURE IMAGES (not needed for deployment)
+system_architecture.png
+system_architecture_final.png
+system_architecture_layered_1772254391436.png
+system_arch_reference_style.png
+
+# PERFORMANCE IMAGES (not needed for deployment)
+NB2_Confusion_Matrix.png
+NB2_Feature_Importance.png
+NB2_LSTM_Training_History.png
+NB2_Model_Performance_Comparison.png
+NB3_Feature_Importance.png
+
+# DIST FOLDER
+.dist/
+
+# PYTHON CACHE
+__pycache__/
+*.pyc
+*.pyo
+
+# NODE MODULES (too large, auto-installed)
+node_modules/
+
+# REACT BUILD OUTPUT
+crop_insurance_frontend/crop_insurance_frontend/build/
+
+# ENVIRONMENT FILES (security - never upload keys)
+.env
+*.env
+
+# JUPYTER NOTEBOOK CHECKPOINTS
+.ipynb_checkpoints/
+
+# PHASE 1 DATASETS (training data, not needed for deployment)
+phase1_datasets_ultimate/
